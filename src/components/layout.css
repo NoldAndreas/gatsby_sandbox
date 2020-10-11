@@ -604,9 +604,9 @@ pre tt:after {
   display: block;
   color: white;
   text-align: center;
-  padding: 0px 16px;
+  padding: 0px 10px;
   text-decoration: none;
-  font-size: 0.9em;
+  font-size: 1.2em;
 }
 
 
@@ -615,14 +615,14 @@ pre tt:after {
   display: block;
   color: white;
   text-align: center;
-  padding: 0px 16px;
+  padding: 0px 10px;
   text-decoration: none;
-  font-size: 0.9em;
+  font-size:1.2em;
 }
 .ul-menubar {
   list-style-type: none;
   margin: 0;
-  padding:10px 0px 0px 0px;
+  padding: 50px 0px 0px 0px;
   overflow: hidden;
   background-color: #333;
 }
