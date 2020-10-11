@@ -1,0 +1,149 @@
+
+
+/* ---------------------------------------------------------- */
+/* General
+/* ---------------------------------------------------------- */
+
+.viewport {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+      'Arial', sans-serif;
+}
+
+.mainBody{
+  padding: 10px;
+}
+/*main {
+  align-content: left;
+  box-sizing: border-box;
+  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif;
+  hyphens: auto;
+  margin: 0 auto;
+  min-height: 100vh;
+  text-align: left;
+  max-width: 900px;
+  display: grid;
+}*/
+/*h1 {
+  font-size: 45px;
+}
+
+p {
+  font-size: 16px;
+}*/
+
+/*code,
+pre {
+  color: #d400ff;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  font-size: 0.92em;
+}
+
+code:before,
+code:after {
+  content: '\`';
+}*/
+
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 0;
+    height: 0;
+    overflow: hidden;
+    margin : 3%;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*
+div.LA{
+  text-align: left;
+}
+
+div.mainBody{
+  text-align: left;
+}*/
+
+
+/* Menu bar
+/* ---------------------------------------------------------- */
+
+.img-header {
+  width: 100%;
+  height: auto;
+}
+
+.li-menu{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.li-about{
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+.ul-menubar {
+  list-style-type: none;
+  margin: 0;
+  padding:10px 0px 0px 0px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Footer
+/* ---------------------------------------------------------- */
+
+.site-foot {
+    color: rgba(0,0,0,0.7);
+    font-size: 0.8em;
+    padding: 20px 0 40px 0;
+    width: 100%;
+    float:left;
+}
+
+.site-foot-nav-left a {
+    color: rgba(0,0,0,0.7);
+}
+
+.site-foot-nav-left a:hover {
+    text-decoration: none;
+    color: rgba(0,0,0,1);
+}
+
+.site-foot-nav-right{
+  float: right;
+  text-align: right;
+}
+
+/* Cards
+/* ---------------------------------------------------------- */
+
+.card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: contain;
+}
