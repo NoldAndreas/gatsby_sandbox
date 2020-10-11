@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql,Link } from "gatsby"
 
 import Header from "./header"
-import "./layout.css"
+import "../styles/layout.css"
 
 const Layout = ({ title, children }) => {
   const data = useStaticQuery(graphql`
@@ -40,8 +40,11 @@ const Layout = ({ title, children }) => {
         <footer style={{
           marginTop: `2rem`
         }}>
-        by Andreas Nold &mdash; <a href="https://github.com/NoldAndreas"> Github </a>
-        &mdash; <a href="https://www.linkedin.com/in/andreas-nold-8686561/"> LinkedIn </a>
+        <ul className="ulfooter-menubar">
+          <li className="lifooter-left"> by Andreas Nold &mdash; <a href="https://github.com/NoldAndreas"> Github </a>
+            &mdash; <a href="https://www.linkedin.com/in/andreas-nold-8686561/"> LinkedIn </a></li>
+          <li className="lifooter-right">  October 2020 </li>
+        </ul>
         </footer>
       </div>
     </div>
@@ -54,8 +57,13 @@ Layout.propTypes = {
 
 export default Layout
 
-//{data.site.siteMetadata?.title || `Title`}
 
-/*© {new Date().getFullYear()}, Built with
+/*
+by Andreas Nold &mdash; <a href="https://github.com/NoldAndreas"> Github </a>
+  &mdash; <a href="https://www.linkedin.com/in/andreas-nold-8686561/"> LinkedIn </a>
+{data.site.siteMetadata?.title || `Title`}
+
+© {new Date().getFullYear()}, Built with
 {` `}
-<a href="https://www.gatsbyjs.com">Gatsby</a>*/
+<a href="https://www.gatsbyjs.com">Gatsby</a>
+*/

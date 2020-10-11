@@ -25,12 +25,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
 
-    <div class="flex mb-4">
-      <div class="w-1/2 bg-gray-400 h-12"></div>
-      <div class="w-1/2 bg-gray-500 h-12"></div>
-    </div>
-
-    <div class="card-columns">
+    <div className="card-columns">
       <My_card title="Contact lines" src={im_CL}  href="./ContactLine_BridgingScales"> Combining scales </My_card>
       <My_card title="Working memory" src={im_PRG}  href="./Project_PRG1"> Forgetting short term memories </My_card>
     </div>

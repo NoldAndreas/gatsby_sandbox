@@ -1,6 +1,6 @@
 import React from "react"
 //import { css } from "@emotion/core"
-import "./layout.css"
+import "../styles/layout.css"
 //import { rhythm } from "../utils/typography"
 import {Card,Image} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';

@@ -79,41 +79,6 @@ div.mainBody{
 }*/
 
 
-/* Menu bar
-/* ---------------------------------------------------------- */
-
-.img-header {
-  width: 100%;
-  height: auto;
-}
-
-.li-menu{
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 5px 16px;
-  text-decoration: none;
-  font-size: 0.9em;
-}
-
-.li-about{
-  float: right;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 5px 16px;
-  text-decoration: none;
-  font-size: 0.9em;
-}
-.ul-menubar {
-  list-style-type: none;
-  margin: 0;
-  padding:10px 0px 0px 0px;
-  overflow: hidden;
-  background-color: #333;
-}
-
 /* Footer
 /* ---------------------------------------------------------- */
 
